@@ -1,0 +1,46 @@
+/*
+  Use the following to include this css file
+  <link rel="stylesheet" href="styles1.css" />
+*/
+:root {
+  --verde-claro: #a8e6cf;
+  --verde-medio: #56ab91;
+  --verde-escuro: #2b5d4c;
+  --verde-destaque: #00c853;
+  --fundo-pagina: #f0fff4;
+  --texto-primario: #1b3d2f;
+}
+
+body {
+  font-family: 'Chakra Petch', sans-serif;
+  background-color: var(--fundo-pagina);
+  color: var(--texto-primario);
+}
+
+p {
+  color: var(--verde-escuro);
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+h1,
+h2,
+h5 {
+  color: var(--verde-medio);
+  font-weight: 700;
+}
+
+a {
+  color: var(--verde-destaque);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--verde-medio);
+  text-decoration: underline;
+}
+
+.badge.bg-secondary {
+  background-color: var(--verde-medio) !important;
+  color: white;
+}
